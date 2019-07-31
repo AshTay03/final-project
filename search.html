@@ -1,0 +1,38 @@
+<html>
+  <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="search.css">
+      <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+      <title>Testing</title>
+  </head>
+
+  <body>
+
+    <div class="search-box">
+      <input id="demo" class="search-txt" type="text" name="" placeholder="Type to search">
+      <a class="search-btn" href="#">
+    <i class="fas fa-search" onclick="myFunction()"></i>
+      </a>
+    </div>
+
+    <script>
+    function myFunction() {
+      if (document.getElementById("demo").value == "soda can"){
+        alert("Soda Can: Blue Recycle Bin")
+      }
+      if (document.getElementById("demo").value == "dove soap bottle"){
+        alert("Dove Soap Bottle: Black Trash Bin")
+      }
+      if (document.getElementById("demo").value == "yard trimmings"){
+        alert("Yard Trimmings: Green Waste Bin")
+      }
+
+    }
+    </script>
+
+
+
+  </body>
+
+</html>
